@@ -22,7 +22,7 @@ export function SubscriberForm() {
             <i className="fas fa-check" />
           </Icon>
         </Form.Control>
-       
+        <Form.Help color="success">This username is available</Form.Help>
       </Form.Field>
 
       <Form.Field>
@@ -39,7 +39,6 @@ export function SubscriberForm() {
             <i className="fas fa-exclamation-triangle" />
           </Icon>
         </Form.Control>
-        <Form.Help color="danger">This email is invalid</Form.Help>
       </Form.Field>
 
       <Form.Field>
