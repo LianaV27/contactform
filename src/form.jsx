@@ -45,7 +45,7 @@ export function SubscriberForm() {
 
     <Form.Field kind="group">
       <Form.Control>
-        <Button color="link">Submit <style>"padding: 1em" </style> </Button>
+        <Button color="link">Submit <style>"padding: 1em"</style> </Button>
       </Form.Control>
     </Form.Field>
     </Form.Field>
