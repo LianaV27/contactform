@@ -43,20 +43,7 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        <Form.Label>Subject</Form.Label>
-        <Form.Field kind="group">
-          <Form.Control>
-            <Form.Select
-              name="subject"
-            >
-              <option value="select-dropdown">Select dropdown</option>
-              <option value="with-options">With options</option>
-            </Form.Select>
-          </Form.Control>
-          <Form.Control fullwidth loading>
-            <Form.Input placeholder="With loading state" />
-          </Form.Control>
-        </Form.Field>
+        
       </Form.Field>
 
       <Form.Field kind="group">
