@@ -3,7 +3,6 @@ import { Form, Icon, Button } from 'react-bulma-components';
 
 
 export function SubscriberForm() {
-  const [message, setMessage] = useState('');
     return <form onSubmit={event => {
         event.preventDefault();
         const formData = new FormData(event.target);
@@ -41,21 +40,6 @@ export function SubscriberForm() {
             <i className="fas fa-exclamation-triangle" />
           </Icon>
         </Form.Control>
-
-      </Form.Field>
-
-      <Form.Field>
-
-      <Form.Field>
-        <Form.Label>Message</Form.Label>
-        <Form.Textarea
-          value={message}
-          onChange={(e) => {
-            return setMessage(e.target.value);
-          }}
-        />
-      </Form.Field>
-
       </Form.Field>
 
       <Form.Field kind="group">
