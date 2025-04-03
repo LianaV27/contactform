@@ -37,17 +37,21 @@ export function SubscriberForm() {
     <Form.Field>
       <Form.Control>
         <Form.Label> Message</Form.Label>
-        <Form.Input
+        <div class="msgbox">
+        <Form.Textarea
           color="black"
           name="message"
+          id="subject"
+          style="height:3em"
         />
+        </div>
       </Form.Control>
+      </Form.Field>
 
     <Form.Field kind="group">
       <Form.Control>
         <Button color="link">Submit <style>"padding: 1em"</style> </Button>
       </Form.Control>
-    </Form.Field>
     </Form.Field>
   </form>
 }
