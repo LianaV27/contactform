@@ -44,12 +44,14 @@ export function SubscriberForm() {
 
       <Form.Field>
         <Form.Label>Message</Form.Label>
+        <Form.Control>
         <Form.Textarea
           value={message}
           onChange={(e) => {
             return setMessage(e.target.value);
           }}
         />
+        </Form.Control>
       </Form.Field>
 
       <Form.Field kind="group">
