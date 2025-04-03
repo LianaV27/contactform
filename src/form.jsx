@@ -6,6 +6,7 @@ export function SubscriberForm() {
         event.preventDefault();
         const formData = new FormData(event.target);
         const formObject = Object.fromEntries(formData.entries());
+        const [message, setMessage] = useState('');
         console.log(formObject);
     }}>
       <Form.Field>
@@ -56,6 +57,16 @@ export function SubscriberForm() {
             <Form.Input placeholder="With loading state" />
           </Form.Control>
         </Form.Field>
+      </Form.Field>
+
+      <Form.Field>
+        <Form.Label>Message</Form.Label>
+        <Form.Textarea
+          value={message}
+          onChange={(e) => {
+            return setMessage(e.target.value);
+          }}
+        />
       </Form.Field>
 
       <Form.Field kind="group">
