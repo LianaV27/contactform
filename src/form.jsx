@@ -1,8 +1,9 @@
 import 'bulma/css/bulma.min.css';
 import { Form, Icon, Button } from 'react-bulma-components';
-const [message, setMessage] = useState('');
+
 
 export function SubscriberForm() {
+  const [message, setMessage] = useState('');
     return <form onSubmit={event => {
         event.preventDefault();
         const formData = new FormData(event.target);
