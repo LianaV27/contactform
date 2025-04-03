@@ -1,5 +1,6 @@
 import 'bulma/css/bulma.min.css';
 import { Form, Icon, Button } from 'react-bulma-components';
+const [message, setMessage] = useState('');
 
 export function SubscriberForm() {
     return <form onSubmit={event => {
@@ -43,7 +44,17 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        
+
+      <Form.Field>
+        <Form.Label>Message</Form.Label>
+        <Form.Textarea
+          value={message}
+          onChange={(e) => {
+            return setMessage(e.target.value);
+          }}
+        />
+      </Form.Field>
+
       </Form.Field>
 
       <Form.Field kind="group">
