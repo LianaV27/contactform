@@ -39,6 +39,7 @@ export function SubscriberForm() {
             <i className="fas fa-exclamation-triangle" />
           </Icon>
         </Form.Control>
+      
       </Form.Field>
 
       <Form.Field>
