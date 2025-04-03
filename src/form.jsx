@@ -18,9 +18,6 @@ export function SubscriberForm() {
         <Icon align="left" size="small">
           <i className="fas fa-user" />
         </Icon>
-        <Icon align="right" size="small">
-          <i className="fas fa-check" />
-        </Icon>
       </Form.Control>
     </Form.Field>
 
@@ -33,9 +30,6 @@ export function SubscriberForm() {
         />
         <Icon align="left" size="small">
           <i className="fas fa-envelope" />
-        </Icon>
-        <Icon align="right" size="small">
-          <i className="fas fa-exclamation-triangle" />
         </Icon>
       </Form.Control>
     </Form.Field>
