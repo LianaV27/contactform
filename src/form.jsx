@@ -12,7 +12,7 @@ export function SubscriberForm() {
       <Form.Label>Username</Form.Label>
       <Form.Control>
         <Form.Input
-          color="success"
+          color="black"
           name="username"
         />
         <Icon align="left" size="small">
@@ -22,14 +22,13 @@ export function SubscriberForm() {
           <i className="fas fa-check" />
         </Icon>
       </Form.Control>
-      <Form.Help color="success">This username is available</Form.Help>
     </Form.Field>
 
     <Form.Field>
       <Form.Label>Email</Form.Label>
       <Form.Control>
         <Form.Input
-          color="danger"
+          color="black"
           name="email"
         />
         <Icon align="left" size="small">
@@ -41,16 +40,20 @@ export function SubscriberForm() {
       </Form.Control>
     </Form.Field>
 
+    <Form.Field>
+      <Form.Control>
+        <Form.Label> Message</Form.Label>
+        <Form.Input
+          color="black"
+          name="message"
+        />
+      </Form.Control>
+
     <Form.Field kind="group">
       <Form.Control>
-        <Button color="link">Submit</Button>
-      </Form.Control>
-      <Form.Control>
-        <Button color="link" colorVariant="light">
-          Cancel
-        </Button>
+        <Button color="link">Submit <style>"padding: 1em" </style> </Button>
       </Form.Control>
     </Form.Field>
-
+    </Form.Field>
   </form>
 }
