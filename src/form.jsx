@@ -9,7 +9,7 @@ export function SubscriberForm() {
     console.log(formObject);
   }}>
     <Form.Field>
-      <Form.Label>Username</Form.Label>
+      <Form.Label>Name</Form.Label>
       <Form.Control>
         <Form.Input
           color="black"
