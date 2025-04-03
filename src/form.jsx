@@ -41,14 +41,6 @@ export function SubscriberForm() {
       </Form.Control>
     </Form.Field>
 
-    <Field>
-      <Control>
-        <Textarea
-          placeholder="I am a textarea"
-        />
-      </Control>
-    </Field>
-
     <Form.Field kind="group">
       <Form.Control>
         <Button color="link">Submit</Button>
